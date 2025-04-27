@@ -1,4 +1,3 @@
-const iterations = 10000000;
 /**                       Result 
  *         ESTest(disabled)    ESTest    valibot       Zod         Joi
  * all        100 ms           950 ms     520 ms     2400 ms    21500 ms
@@ -24,18 +23,15 @@ const iterations = 10000000;
 
 // // globalThis.__ESCSS_ESTEST__.isESTestDisabled = true
 
-
+// const iterations = 10000000;
 // const start = performance.now();
-
 // for (let i = 0; i < iterations; i++) {
 //   ESTest('lee', 'string')
 //   ESTest(10, 'number')
-  
+
 //   ESTest('123', 'string')
 // }
-
 // const end = performance.now();
-
 // console.log(`time：${end - start} ms`);
 
 
@@ -66,13 +62,13 @@ const iterations = 10000000;
 //   return v.parse(StringSchema, data);
 // }
 
+// const iterations = 10000000;
 // const start = performance.now();
 // for (let i = 0; i < iterations; i++) {
 //   getLoginData({name: 'lee', age: 10})
 //   getStringData('123')
 // }
 // const end = performance.now();
-
 // console.log(`time：${end - start} ms`);
 
 
@@ -103,16 +99,13 @@ const iterations = 10000000;
 //   return StringSchema.parse(data);
 // }
 
-
+// const iterations = 10000000;
 // const start = performance.now();
-
 // for (let i = 0; i < iterations; i++) {
 //   getLoginData({name: 'lee', age: 10})
 //   getStringData('123')
 // }
-
 // const end = performance.now();
-
 // console.log(`time：${end - start} ms`);
 
 
@@ -132,14 +125,11 @@ const iterations = 10000000;
 
 // const StringSchema = Joi.string();
 
-
+// const iterations = 10000000;
 // const start = performance.now();
-
 // for (let i = 0; i < iterations; i++) {
-// LoginSchema.validateAsync({name: 'lee', age: 30})
-// StringSchema.validateAsync('123')
+//   LoginSchema.validateAsync({name: 'lee', age: 30})
+//   StringSchema.validateAsync('123')
 // }
-
 // const end = performance.now();
-
 // console.log(`time：${end - start} ms`);
