@@ -23,6 +23,7 @@ const data = {
 
 import * as resultESTestDisabled from './ESTestDisabled';
 import * as resultArkType from './arkType';
+import * as resultUnSafeESTest from './unSafeESTest';
 import * as resultESTest from './ESTest';
 import * as resultValibot from './valibot';
 import * as resultZod from './zod';
@@ -32,6 +33,7 @@ import * as resultYup from './yup';
 
 resultESTestDisabled
 resultArkType
+resultUnSafeESTest
 resultESTest
 resultValibot
 resultZod
