@@ -1,6 +1,6 @@
 /**                       Result 
- *         ESTest(Disabled)    valibot    ESTest       Zod      Joi
- * object      23 ms           125 ms     167 ms     585 ms    2052 ms
+ *           arkType    ESTest(Disabled)    valibot    ESTest       Zod      Joi
+ * object     22 ms          22 ms          125 ms     167 ms     585 ms    2052 ms
 */
 
 // iterations: 1,000,000
@@ -18,18 +18,20 @@
 //   }
 // }
 
-import * as resultESTestDisabled from './ESTestDisabled';
-import * as resultValibot from './valibot';
-import * as resultESTest from './ESTest';
-import * as resultZod from './zod';
-import * as resultJoi from './joi';
+import * as resultArkType from './arkType';
+// import * as resultESTestDisabled from './ESTestDisabled';
+// import * as resultValibot from './valibot';
+// import * as resultESTest from './ESTest';
+// import * as resultZod from './zod';
+// import * as resultJoi from './joi';
 
 // run: pnpm dev
 // check Devtool (F12): console.log cost time 
-resultESTestDisabled
-resultValibot
-resultESTest
-resultZod
-resultJoi
+resultArkType
+// resultESTestDisabled
+// resultValibot
+// resultESTest
+// resultZod
+// resultJoi
 
 
