@@ -31,4 +31,4 @@ for (let i = 0; i < iterations; i++) {
   dataSchema.validateAsync(data)
 }
 const end = performance.now();
-export default console.log(`[joi] cost time：${end - start} ms`);
+export default console.log(`[joi]：${end - start} ms`);

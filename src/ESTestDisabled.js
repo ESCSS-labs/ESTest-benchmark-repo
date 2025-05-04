@@ -28,5 +28,5 @@ const end = performance.now();
 // Reset to default to avoid affecting ESTest.js test case
 globalThis.__ESCSS_ESTEST__.isESTestDisabled = false
 
-export default console.log(`[ESTest(Disabled)] cost time：${end - start} ms`);
+export default console.log(`[ESTest(Disabled)]：${end - start} ms`);
 

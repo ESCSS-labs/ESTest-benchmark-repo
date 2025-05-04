@@ -7,6 +7,7 @@ console.warn(`
 - Vite: v6.3.4
 
 ======== Based on ========
+performance.now()
 const iterations = 1000000;
 const data = {
   id: 'abc123',
@@ -21,22 +22,22 @@ const data = {
 }
 `)
 
-import * as resultESTestDisabled from './ESTestDisabled';
-import * as resultArkType from './arkType';
-import * as resultUnSafeESTest from './unSafeESTest';
-import * as resultESTest from './ESTest';
-import * as resultValibot from './valibot';
-import * as resultZod from './zod';
-import * as resultJoi from './joi';
-import * as resultTypeBox from './typeBox';
-import * as resultYup from './yup';
+import * as ESTestDisabledResult from './ESTestDisabled';
+import * as arkTypeResult from './arkType';
+import * as ESTestResult from './ESTest';
+import * as unSafeESTestResult from './unSafeESTest';
+import * as valibotResult from './valibot';
+import * as zodResult from './zod';
+import * as joiResult from './joi';
+import * as typeBoxResult from './typeBox';
+import * as yupResult from './yup';
 
-resultESTestDisabled
-resultArkType
-resultUnSafeESTest
-resultESTest
-resultValibot
-resultZod
-resultJoi
-resultTypeBox
-resultYup
+ESTestDisabledResult
+arkTypeResult
+ESTestResult
+unSafeESTestResult
+valibotResult
+zodResult
+joiResult
+typeBoxResult
+yupResult

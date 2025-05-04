@@ -31,7 +31,7 @@ for (let i = 0; i < iterations; i++) {
 }
 const end = performance.now();
 
-export default console.log(`[valibot] cost time：${end - start} ms`);
+export default console.log(`[valibot]：${end - start} ms`);
 
 
 

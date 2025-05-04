@@ -30,4 +30,4 @@ for (let i = 0; i < iterations; i++) {
   dataSchema.parse(data)
 }
 const end = performance.now();
-export default console.log(`[zod] cost time：${end - start} ms`);
+export default console.log(`[zod]：${end - start} ms`);

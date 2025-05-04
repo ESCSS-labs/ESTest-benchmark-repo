@@ -22,5 +22,5 @@ for (let i = 0; i < iterations; i++) {
   unSafeESTest(data?.user?.preferences?.language, 'string')
 }
 const end = performance.now();
-export default console.log(`[unSafeESTest] cost time：${end - start} ms`);
+export default console.log(`[unSafeESTest]：${end - start} ms`);
 

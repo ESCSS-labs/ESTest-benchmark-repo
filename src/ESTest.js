@@ -22,5 +22,5 @@ for (let i = 0; i < iterations; i++) {
   ESTest(data?.user?.preferences?.language, 'string')
 }
 const end = performance.now();
-export default console.log(`[ESTest] cost time：${end - start} ms`);
+export default console.log(`[ESTest]：${end - start} ms`);
 
