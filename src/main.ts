@@ -1,8 +1,3 @@
-/**                       Result 
- *           ESTest(Disabled)   arkType     valibot    ESTest      Zod      Joi
- * object         22 ms          22 ms       125 ms    167 ms     585 ms    2052 ms
-*/
-
 console.warn(`
 ==== Test Environment ====
 - Device: Apple M4 (MacBook Pro), 16GB RAM
@@ -28,14 +23,14 @@ const data = {
 
 import * as resultESTestDisabled from './ESTestDisabled';
 import * as resultArkType from './arkType';
-import * as resultValibot from './valibot';
 import * as resultESTest from './ESTest';
+import * as resultValibot from './valibot';
 import * as resultZod from './zod';
 import * as resultJoi from './joi';
 
 resultESTestDisabled
 resultArkType
-resultValibot
 resultESTest
+resultValibot
 resultZod
 resultJoi

@@ -1,5 +1,5 @@
 # Benchmark
-[benchmark](/public/benchmark.png)
+![benchmark](/public/benchmark.png)
 
 ## Setup
 
