@@ -27,8 +27,8 @@ import * as resultESTest from './ESTest';
 import * as resultValibot from './valibot';
 import * as resultZod from './zod';
 import * as resultJoi from './joi';
+import * as resultTypeBox from './typeBox';
 import * as resultYup from './yup';
-
 
 resultESTestDisabled
 resultArkType
@@ -36,4 +36,5 @@ resultESTest
 resultValibot
 resultZod
 resultJoi
+resultTypeBox
 resultYup
