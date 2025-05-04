@@ -12,7 +12,6 @@ const data = {
   }
 }
 
-
 const dataSchema = v.object({
   id: v.string(),
   user: v.object({
@@ -25,17 +24,10 @@ const dataSchema = v.object({
   })
 });
 
-type Data = v.InferOutput<typeof dataSchema>;
-
-function getData(data: unknown): Data {
-  return v.parse(dataSchema, data);
-}
-
 const iterations = 1000000;
 const start = performance.now();
 for (let i = 0; i < iterations; i++) {
-  getData(data)
-
+  v.parse(dataSchema, data)
 }
 const end = performance.now();
 

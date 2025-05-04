@@ -24,16 +24,10 @@ const dataSchema = z.object({
   })
 });
 
-type Data = z.infer<typeof dataSchema>;
-
-function getData(data: unknown): Data {
-  return dataSchema.parse(data);
-}
-
 const iterations = 1000000;
 const start = performance.now();
 for (let i = 0; i < iterations; i++) {
-  getData(data)
+  dataSchema.parse(data)
 }
 const end = performance.now();
 export default console.log(`[zod] cost time：${end - start} ms`);
