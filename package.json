@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "~5.7.2",
-    "vite": "^6.3.1"
+    "typescript": "~5.7.3",
+    "vite": "^6.3.4"
   },
   "dependencies": {
-    "escss-estest": "^2.0.0",
+    "escss-estest": "^2.1.5",
     "joi": "^17.13.3",
     "valibot": "^1.0.0",
     "zod": "^3.24.3"
