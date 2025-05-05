@@ -10,7 +10,3 @@ cd ESTest-benchmark-repo
 pnpm install
 pnpm dev
 ```
-
-## Note
-  I'm using all testing libraries for the first time (except ESTest), so I might not use them perfectly — I just check if the data works.
-
